@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5,
       margin-bottom: 5px; }
 
 .btn {
-  border-radius: 4px;
+  border-radius: 0.3em;
   cursor: pointer;
   padding-left: 30px;
   padding-right: 30px;
@@ -238,16 +238,18 @@ h1, h2, h3, h4, h5,
   font-family: "Lora", serif; }
   .btn.btn-lg {
     font-size: 16px !important;
-    padding: 13px 40px !important; }
+    padding: 13px 40px !important;
+    border-radius: 0.3em; }
   .btn.btn-sm {
     padding: 10px 20px;
-    font-size: 12px; }
+    font-size: 12px;
+    border-radius: 0.3em; }
   .btn.btn-primary {
-    border-radius: 0px; }
+    border-radius: 0.3em; }
   .btn.btn-secondary {
     border: 2px solid #ccc;
     background: none;
-    border-radius: 0px;
+    border-radius: 0.3em;
     color: #999999; }
     .btn.btn-secondary:hover {
       background: #f41335;
@@ -280,8 +282,8 @@ h1, h2, h3, h4, h5,
   height: 55px !important;
   background: #fff4f4 !important;
   color: #280100 !important;
-  font-size: 18px;
-  border-radius: 0px; }
+  font-size: 1.125em;
+  border-radius: 0.3em; }
 
 textarea.form-control {
   height: inherit !important; }
@@ -565,6 +567,7 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
