@@ -8,8 +8,9 @@ $lg: 960px;
 $md: 768px;
 $sm: 576px;
 $white: #fff;
-$black: #000;
+$black: #280100;
 $primary: #f41335;
+$unique-black: #1c1532;
 
 html {
 	overflow-x: hidden;
@@ -262,7 +263,7 @@ h1, h2, h3, h4, h5,
 	}
 	&.site-slant-dark {
 		&:after {
-			background: darken(#2A363B, 2%);
+			background: darken($unique-black, 2%);
 		}
 	}
 }

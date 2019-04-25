@@ -21,7 +21,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
-  color: #000;
+  color: #280100;
   font-family: "Lora", serif;
   font-weight: bold; }
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media screen and (max-width: 991px) {
     .site-navbar-light {
-      background: #000 !important;
+      background: #280100 !important;
       top: 0;
       position: relative; } }
   .site-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5,
     .site-navbar-light.scrolled .nav-link {
       padding-top: 0.7rem !important;
       padding-bottom: 0.7rem !important;
-      color: #000 !important; }
+      color: #280100 !important; }
       .site-navbar-light.scrolled .nav-link.active {
         color: #f41335 !important; }
     .site-navbar-light.scrolled.awake {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5,
     .site-navbar-light.scrolled.sleep {
       transition: .3s all ease-out; }
     .site-navbar-light.scrolled .navbar-brand {
-      color: #000; }
+      color: #280100; }
 
 .navbar-brand {
   text-transform: uppercase;
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5,
     position: relative; }
     .site-cover.overlay:before {
       content: "";
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(40, 1, 0, 0.6);
       position: absolute;
       top: 0;
       left: 0;
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5,
     width: 120%;
     height: 200px;
     left: -10%;
-    background: #f2f2f2;
+    background: white;
     transform: rotate(-5deg);
     content: "";
     position: absolute;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5,
   .site-slant.site-slant-white:after {
     background: #fff; }
   .site-slant.site-slant-dark:after {
-    background: #263135; }
+    background: #18122b; }
 
 .site-uppercase {
   font-size: 30px; }
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5,
     font-size: 37px; } }
 
 .text-black {
-  color: #000 !important; }
+  color: #280100 !important; }
 
 .bg-light {
   background: rgba(250, 250, 250, 0.9); }
@@ -273,13 +273,13 @@ h1, h2, h3, h4, h5,
     .btn.btn-outline-white:hover, .btn.btn-outline-white:focus, .btn.btn-outline-white:active {
       background: #fff;
       border-color: #fff;
-      color: #000; }
+      color: #280100; }
 
 .form-control {
   border: none;
   height: 55px !important;
-  background: #e6e6e6 !important;
-  color: #000 !important;
+  background: #fff4f4 !important;
+  color: #280100 !important;
   font-size: 18px;
   border-radius: 0px; }
 
@@ -330,7 +330,7 @@ textarea.form-control {
       .site-tab-nav li a.active {
         background: none !important;
         color: black !important;
-        border: 2px solid #000; }
+        border: 2px solid #280100; }
 
 .site-animate {
   opacity: 0;
@@ -416,7 +416,7 @@ textarea.form-control {
     font-size: 20px;
     top: -1.5em; }
   .site-pricing .site-price-per strong {
-    color: #000; }
+    color: #280100; }
   .site-pricing .site-price-per span {
     font-size: 20px; }
 .site-pricing ul li {
@@ -537,7 +537,7 @@ textarea.form-control {
 #reservationModal .modal-content {
   border-radius: 0; }
   #reservationModal .modal-content label {
-    color: #000; }
+    color: #280100; }
   #reservationModal .modal-content .modal-body {
     padding: 0; }
   #reservationModal .modal-content .bg-image, #reservationModal .modal-content .site-cover {
