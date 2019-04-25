@@ -284,6 +284,8 @@ h1, h2, h3, h4, h5,
   color: #280100 !important;
   font-size: 1.125em;
   border-radius: 0.3em; }
+  .form-control:focus {
+    border: 2px solid #f41335; }
 
 textarea.form-control {
   height: inherit !important; }
