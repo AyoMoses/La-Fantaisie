@@ -7,9 +7,7 @@ body {
   background: #fff;
   font-size: 16px;
   line-height: 1.6;
-  color: #b8b8b8;
-  font-family: 'Courgette', cursive;
-  /*hand writing*/ }
+  color: #b8b8b8; }
 
 a {
   transition: .3s all ease;
